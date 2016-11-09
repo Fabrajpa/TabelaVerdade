@@ -13,7 +13,7 @@ public class TabelaVerdade {
 			System.out.println("Insira v (verdadeiro) ou f (falso)");
 			System.out.println("Digite o valor de p: ");
 			p = in.nextLine();
-
+			p.toUpperCase();
 			System.out.println("Digite o valor de q: ");
 			q = in.nextLine();
 
@@ -35,7 +35,7 @@ public class TabelaVerdade {
 			} else if (p.equals("v") && q.equals("f") && r.equals("f")) {
 				System.out.println("O resultado da expressão é verdadeira.");
 				System.out.println();
-				
+ 
 			} else if (p.equals("f") && q.equals("v") && r.equals("v")) {
 				System.out.println("O resultado da expressão é verdadeira.");
 				System.out.println();
